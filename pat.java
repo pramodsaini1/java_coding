@@ -16,7 +16,8 @@ class pattern{
     }
     public static void main(String []arr){
         int i=1;
-        display(i);
+        pat obj = new pat();
+        obj.display(i);
     }
 }
 
