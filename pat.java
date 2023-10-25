@@ -17,7 +17,7 @@ class pat{
     public static void main(String []arr){
         int i=1;
         pat obj = new pat();
-        obj.display(i);
+        obj.iseries(i);
     }
 }
 
