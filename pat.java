@@ -1,4 +1,4 @@
-class pattern{
+class pat{
     int n;
     public void jseries(int j){
         if(j<=n){
