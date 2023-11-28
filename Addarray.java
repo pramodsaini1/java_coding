@@ -2,7 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Addarray {
-     List<Integer> ans=new ArrayList<>();
+    public List<Integer> addToArrayForm(int[] num, int k) {
+        List<Integer> ans=new ArrayList<>();
         List<Integer> ans1=new ArrayList<>();
         int digit=0;
         for(int i=0;i<num.length;i++){
@@ -18,6 +19,7 @@ public class Addarray {
              ans1.add(ans.get(i));
          }
         return ans1;
+    }
 }
 /*
  * The array-form of an integer num is an array representing its digits in left to right order.
