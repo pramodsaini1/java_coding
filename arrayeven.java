@@ -1,6 +1,6 @@
 public class arrayeven {
     public static void main(String[] args) {
-        int arr[]={18,124,9,1764,98,1};
+        int arr[]={18,125,9,1764,98,1};
         System.out.println(findnumber(arr));
     }
     static int findnumber(int []nums){
