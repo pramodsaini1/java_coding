@@ -15,7 +15,7 @@ public class quick {
         int s=low;
         int e=high;
         int m=s+(e-s)/2;
-        int pivot=arr[m];
+        int pivot=arr[m];//pivot is the median element and lesser the left side and grether element in the right side
         while(s<=e){
             while(arr[s]<pivot){
                 s++;
