@@ -1,4 +1,4 @@
-package Recursion.String.subset;
+package Recursion.subset;
 
 public class Subseq {
     public static void main(String[] args) {
