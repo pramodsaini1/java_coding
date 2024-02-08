@@ -30,7 +30,10 @@ public class main {
          System.out.println(stud.name);
          System.out.println(stud.marks);
 
-
+        Student one=new Student();
+        Student two=one;
+        one.name="Something something";
+        System.out.println(two.name);
  
      }
 
@@ -40,7 +43,7 @@ public class main {
            data method
 
      }*/
-}
+};
 // create the class
      class Student{
               int roll;//default value----0
@@ -49,7 +52,18 @@ public class main {
 
         // object-----instance of the class
         // class is the collections of the data member and data method called the class
-               
+           Student(){
+            this.roll=200;
+            this.name="pkkkk";
+            this.marks=77.67f;
+           } 
+           Student(int roll,String name,float marks){
+               //constructor---a specific method name same as class name----haven't any return type--Automatic invoke when we create the object
+                  this.roll=roll;
+                  this.name=name;
+                  this.marks=marks;
+           }
+
            
 
      }
